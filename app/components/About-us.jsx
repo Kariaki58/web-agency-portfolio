@@ -6,20 +6,20 @@ import image4 from '../assets/image-4.jpg';
 
 const AboutUs = () => {
   return (
-    <section className="bg-gray-950 px-10 py-20 lg:px-20">
+    <section className="bg-gray-950 px-2 md:px-10 py-20 lg:px-20">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center">
           <p className="border border-gray-800 text-[#66FCF1] rounded-full px-6 py-2 inline-block text-sm font-semibold tracking-widest uppercase">
             About Us
           </p>
-          <h1 className="text-4xl md:text-5xl text-white mt-5 font-bold leading-tight md:max-w-lg mx-auto">
+          <h2 className="text-4xl md:text-5xl text-white mt-5 font-bold leading-tight md:max-w-lg mx-auto">
             We Are More Than A Web Agency
-          </h1>
+          </h2>
         </div>
 
         {/* Content Section */}
-        <div className="flex flex-col lg:flex-row items-start gap-12 mt-16 lg:mt-20">
+        <div className="flex flex-col lg:flex-row items-center gap-12 mt-16 lg:mt-20">
           {/* Image Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
@@ -28,10 +28,10 @@ const AboutUs = () => {
                   src={image1}
                   alt="About Us 1"
                   width={550}
-                  className="mb-8 rounded-lg shadow-lg bg-gray-500 opacity-30 w-full"
+                  className="mb-8 rounded-lg shadow-lg hover:opacity-15 bg-gray-500 opacity-30 w-full"
                 />
                 <div className="p-4 absolute bottom-0 opacity-100 pointer-events-none bg-opacity-30">
-                  <h1 className="border-b-2 pb-3 font-bold text-white text-2xl">Our Mission</h1>
+                  <h3 className="border-b-2 pb-3 font-bold text-white text-2xl">Our Mission</h3>
                   <p className="pt-3 text-white text-sm tracking-wider leading-5">
                     At Blinq, we drive digital growth through impactful web design and strategic marketing solutions. 
                     We craft experiences that captivate, engage, and convert, helping your brand reach new heights.
@@ -43,10 +43,10 @@ const AboutUs = () => {
                   src={image2}
                   alt="About Us 2"
                   width={550}
-                  className="rounded-lg shadow-lg bg-gray-500 opacity-30 w-full"
+                  className="rounded-lg shadow-lg hover:opacity-15 bg-gray-500 opacity-30 w-full"
                 />
                 <div className="p-4 absolute bottom-0 opacity-100 pointer-events-none bg-opacity-30">
-                  <h1 className="border-b-2 pb-3 font-bold text-white text-2xl">Equipment</h1>
+                  <h3 className="border-b-2 pb-3 font-bold text-white text-2xl">Equipment</h3>
                   <p className="pt-3 text-white text-sm tracking-wider leading-5">
                     We leverage the latest technologies and industry-leading tools to deliver innovative, 
                     high-performing digital solutions that keep your brand ahead of the competition.
@@ -60,10 +60,10 @@ const AboutUs = () => {
                   src={image3}
                   alt="About Us 3"
                   width={450}
-                  className="mb-8 rounded-lg shadow-lg bg-gray-500 opacity-30 w-full"
+                  className="mb-8 rounded-lg shadow-lg hover:opacity-15 bg-gray-500 opacity-30 w-full"
                 />
                 <div className="p-4 absolute bottom-0 opacity-100 pointer-events-none bg-opacity-30">
-                  <h1 className="border-b-2 pb-3 font-bold text-white text-2xl">Core Values</h1>
+                  <h3 className="border-b-2 pb-3 font-bold text-white text-2xl">Core Values</h3>
                   <p className="pt-3 text-white text-sm tracking-wider leading-5">
                     Integrity, creativity, and innovation define us. We’re committed to building lasting partnerships, 
                     ensuring transparency, and delivering measurable success.
@@ -75,10 +75,10 @@ const AboutUs = () => {
                   src={image4}
                   alt="About Us 4"
                   width={450}
-                  className="rounded-lg shadow-lg bg-gray-500 opacity-30 w-full"
+                  className="rounded-lg shadow-lg hover:opacity-15 bg-gray-500 opacity-30 w-full"
                 />
                 <div className="p-4 absolute bottom-0 opacity-100 pointer-events-none bg-opacity-30">
-                  <h1 className="border-b-2 pb-3 font-bold text-white text-2xl">Our Vision</h1>
+                  <h3 className="border-b-2 pb-3 font-bold text-white text-2xl">Our Vision</h3>
                   <p className="pt-3 text-white text-sm tracking-wider leading-5">
                     We aim to be your trusted partner in digital transformation, 
                     empowering brands to achieve sustainable online growth and stand out in the crowded digital landscape.

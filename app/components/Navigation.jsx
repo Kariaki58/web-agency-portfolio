@@ -20,7 +20,7 @@ const Navigation = () => {
     };
 
     return (
-        <nav className="px-10 py-5 flex justify-between items-center text-white font-bold text-sm relative">
+        <nav className="px-2 md:px-10 py-5 flex justify-between items-center text-white font-bold text-sm relative">
             {/* Logo */}
             <li className="tracking-wider text-2xl list-none">LOGO</li>
 

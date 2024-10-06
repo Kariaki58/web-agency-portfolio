@@ -37,7 +37,7 @@ const Header = () => {
                 </p>
               </div>
               <button className="bg-[#66FCF1] text-black font-bold p-3 rounded-lg transition duration-300 text-sm md:p-4 md:text-md">
-                GET FREE CONSULTATION
+                BOOK FREE CONSULTATION
               </button>
             </div>
         </div>
